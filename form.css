@@ -33,7 +33,6 @@ body {
 }
 
 .heading {
-    opacity: 1; /* Changed opacity to make the heading visible */
     text-transform: capitalize;
     text-align: center;
     font-size: 40px; /* Reduced font size for better fit */
@@ -47,7 +46,6 @@ body {
 
 input,
 .submit-btn {
-    opacity: 1; /* Changed opacity to make the elements visible */
     width: 100%; /* Adjusted width to fill the container */
     height: 35px;
     display: block;
@@ -83,7 +81,6 @@ input:focus::placeholder {
 }
 
 .link {
-    opacity: 1; /* Changed opacity to make the link visible */
     text-align: center;
     text-transform: capitalize;
     text-decoration: none;
