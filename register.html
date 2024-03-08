@@ -58,26 +58,4 @@
         </div>
     </div>
 </body>
-<script>
-    document.getElementById('demo').innerHTML = Date()
-    document.getElementById('login-form').addEventListener('submit', function (e) {
-        e.preventDefault();
-
-        const username = document.getElementById('username').value;
-        const password = document.getElementById('password').value;
-
-        const users = [
-            { username: 'mrburhan34', password: 'agent47' },
-        ];
-
-        const authenticatedUser = users.find(user => user.username === username && user.password === password);
-
-        if (authenticatedUser) {
-            window.location.href = 'file:///G:/codes%20of%20saqib/website/Main%20page%20website(MRBURHAN34).html';
-            alert('your password is correct so,you are allowed.');
-        } else {
-            window.location.href='file:///G:/codes%20of%20saqib/website/incorrect%20password.html'
-        }
-    });
-</script>
 </html>
