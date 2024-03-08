@@ -18,77 +18,80 @@ body {
     align-items: center;
     background-size: cover;
     background-position: center;
-    font-family: 'Roboto', sans-serif; /* Corrected font family name */
-    background-color: #000; /* Set default background color for body */
+    font-family: 'roboto', sans-serif;
 }
 
 .form {
     width: 510px;
-    max-width: 90%; /* Added max-width for responsiveness */
     height: auto;
-    padding: 20px; /* Increased padding */
+    padding: 10px;
     border-radius: 10px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.8); /* Adjusted background color opacity */
+    background-color: black;
+    font-family: 'roboto', sans-serif;
 }
 
 .heading {
+    opacity: 0;
     text-transform: capitalize;
     text-align: center;
-    font-size: 40px; /* Reduced font size for better fit */
+    font-size: 80px;
     font-weight: 300;
-    margin-bottom: 30px; /* Reduced margin */
+    margin-bottom: 50px;
 }
 
-.background {
-    background-color: #fff; /* This class is not used in HTML, so removed */
+.background{
+    background-color: #fff;
 }
 
 input,
-.submit-btn {
-    width: 100%; /* Adjusted width to fill the container */
+.submit-btn{
+    opacity: 0;
+    width: 80%;
     height: 35px;
     display: block;
     margin: 20px auto;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.3);
     border: none;
-    color: #000; /* Changed text color */
-    padding: 10px; /* Reduced padding */
-    transition: 0.5s;
+    color:#fff;
+    padding: 15px;
+    transition: .5s;
     text-transform: capitalize;
 }
 
-input::placeholder {
-    color: #000; /* Changed placeholder text color */
+input::placeholder{
+    color: #fff;
 }
 
 input:focus,
-.submit-btn:hover {
+.submit-btn:hover{
     background: #fff;
-    color: #000; /* Changed text color */
+    color: black;
 }
 
-input:focus::placeholder {
-    color: #000; /* Changed placeholder text color */
+input:focus::placeholder{
+    color: black;
 }
 
-.submit-btn {
-    width: 50%; /* Adjusted width for better alignment */
-    padding: 10px 20px; /* Reduced padding */
+.submit-btn{
+    width: auto;
+    padding: 0 20px;
     cursor: pointer;
-    margin: 30px auto 0; /* Adjusted margin */
+    margin: 50px auto 0;
+    opacity: 0;
 }
 
-.link {
+.link{
+    opacity: 0;
     text-align: center;
     text-transform: capitalize;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
     display: block;
-    margin: 20px auto; /* Adjusted margin */
+    margin: 30px auto;    
 }
 
-.link:hover {
+.link:hover{
     color: #fff;
 }
