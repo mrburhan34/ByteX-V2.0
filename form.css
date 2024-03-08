@@ -18,7 +18,7 @@ body {
     align-items: center;
     background-size: cover;
     background-position: center;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* corrected font family name */
 }
 
 .form {
@@ -28,7 +28,7 @@ body {
     border-radius: 10px;
     color: #fff;
     background-color: black;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -43,17 +43,17 @@ body {
     margin-bottom: 50px;
 }
 
-.background{
+.background {
     background-color: #fff;
     width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
-    align-item: center;
+    align-items: center; /* corrected property name */
 }
 
 input,
-.submit-btn{
+.submit-btn {
     opacity: 100%;
     width: 80%;
     height: 35px;
@@ -62,27 +62,27 @@ input,
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.3);
     border: none;
-    color:#fff;
+    color: #fff;
     padding: 15px;
     transition: .5s;
     text-transform: capitalize;
 }
 
-input::placeholder{
+input::placeholder {
     color: #fff;
 }
 
 input:focus,
-.submit-btn:hover{
+.submit-btn:hover {
     background: #fff;
     color: black;
 }
 
-input:focus::placeholder{
+input:focus::placeholder {
     color: black;
 }
 
-.submit-btn{
+.submit-btn {
     width: auto;
     padding: 0 20px;
     cursor: pointer;
@@ -90,7 +90,7 @@ input:focus::placeholder{
     opacity: 100%;
 }
 
-.link{
+.link {
     opacity: 100%;
     text-align: center;
     text-transform: capitalize;
@@ -100,6 +100,6 @@ input:focus::placeholder{
     margin: 30px auto;    
 }
 
-.link:hover{
+.link:hover {
     color: #fff;
 }
