@@ -120,7 +120,7 @@
     body {
         position: relative;
         width: 100%;
-        min-height: 538px;
+        min-height: 600px;
         height: auto;
         display: flex;
         justify-content: center;
